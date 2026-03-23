@@ -1,0 +1,23 @@
+etl-banks-postgresql-pipeline/
+│
+├── data/
+│   └── banks.csv
+│
+├── logs/
+│   └── etl.log
+│
+├── sql/
+│   ├── create_table.sql
+│   └── queries.sql
+│
+├── src/
+│   ├── extract.py
+│   ├── transform.py
+│   ├── load.py
+│   ├── db.py
+│   ├── logger.py
+│   └── main.py
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
